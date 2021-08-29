@@ -6,7 +6,7 @@ install: basic docker node symfony_cli slack vscode git_config change_to_zsh inf
 .PHONY:basic
 basic:
 	@echo "Installing  BASIC PROGRAMS ...  "
-	@sudo apt install grub-customizer snapd software-properties-common apt-transport-https ca-certificates gnupg wget lsb-release curl git  fzf tldr zsh exa -y
+	@sudo apt install grub-customizer snapd git-delta software-properties-common apt-transport-https ca-certificates gnupg wget lsb-release curl git  fzf tldr zsh exa -y
 
 .PHONY:docker
 docker:
