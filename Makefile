@@ -13,7 +13,6 @@ docker:
 	@echo "INSTALLING DOCKER"
 	@sudo apt-get update
 	@sudo apt install docker.io docker-compose -y
-	@sudo groupadd docker
 	@sudo usermod -aG docker $(USER)
 	@sudo systemctl enable --now docker
 
