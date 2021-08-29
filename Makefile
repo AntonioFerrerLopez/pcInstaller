@@ -68,7 +68,7 @@ change_to_zsh:
 info_next_steps:
 	@echo "MANUAL INSTALATION REQUIRED: "
 	@echo "OmyzSh : "
-	@echo 'sh -c "$$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/iSnstall.sh)"'
+	@echo 'sh -c "$$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"'
 	@echo "Dotly: "
 	@echo 'bash <(wget -qO- https://raw.githubusercontent.com/CodelyTV/dotly/HEAD/installer)'
 	@echo "Insert alias for vsCode (after install Dotly): "
